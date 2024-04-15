@@ -1,23 +1,35 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
-    padding-top: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 textarea {
-    width: 100%;
-    height: 200px;
+    width: calc(100% - 20px); /* Adjusting for padding */
     margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 150px;
 }
 
 button {
     margin-top: 10px;
-    width: 100px;
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    display: block;
 }
